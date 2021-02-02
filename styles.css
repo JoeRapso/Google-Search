@@ -1,0 +1,134 @@
+/* search.html and imageSearch.html styling section */
+
+body {
+    background-color: #fff;
+}
+#header{
+    height: 50px;
+}
+#header-links{
+    float: right;
+}
+#header-links > a{
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+}
+#logo-area{
+    display: block; 
+    margin: auto auto;
+    text-align: center;
+}
+#img{
+    padding-top: 109px;
+    width: 272px;
+}
+#search-form{
+    display: block;
+    margin: auto auto;
+    text-align: center;
+}
+#search-form >form input[type=text]{
+    width: 550px;
+    border-radius: 24px;
+    height: 34px;
+    border: 1px solid #dfe1e5;
+    margin-top: 15px;
+    background: white url(searchicon.png) 12px 18px no-repeat;
+    padding-left: 30px;
+}
+#search-form > form input[type=submit]{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 29px 4px;
+    padding: 0 16px;
+    height: 36px;
+}
+#footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    width: 100%;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #5f6368;
+}
+#f-span-left{
+    margin-left: 30px;
+    float: left;
+}
+#f-span-right{
+    margin-right: 30px;
+    float: right;
+}
+.f-ahref{
+    padding-left: 27px;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* advancedSearch.html styling section  */
+
+.container{
+    width: 100%;
+    position: fixed;
+    top: 250px;
+    left: 180px;
+}
+form{
+    display: block;
+    width: 96%;
+}
+.col-left{
+    display: inline-block;
+    width: 13%;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: #222;
+}
+.col-center{
+    display: inline-block;
+    width: 38%;
+}
+.col-right{
+    display: inline-block;
+    width: 42%;
+    font-size: 11px;
+    color: #555;
+    font-family: arial, sans-serif;
+    margin-left: 10px;
+}
+@media only screen and (max-width: 700px) {
+    .col-right > label {
+        display: none;
+    }
+  }
+
+form input[type=text]{
+    width: 96%;
+    padding: 5px 8px;
+}
+
+form input[type=submit]{
+    float: right;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 8px 10px 10px 10px;
+    margin-right: 0px;
+}
+
